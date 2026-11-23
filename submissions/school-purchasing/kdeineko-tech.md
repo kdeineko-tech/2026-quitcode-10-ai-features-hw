@@ -60,7 +60,7 @@
 ### Прод, UAT і приймання PM (трек D)
 
 - Зріз 4 на проді: https://school-purchasing-lemon.vercel.app/api/health — `sha` 9dee66c (англійська версія — злиття #83 `07c56e6`); міграцій немає
-- UAT на проді (≥ 2 AC): https://github.com/kdeineko-tech/school-purchasing/tree/9dee66cdad5236b97b11e76628f72308a6cae23e/docs/qa/uat/2026-11-23-en/ — AC-AI-01 (рядок «A4 paper» / «For printing» / 3 / 20.00, закупівлю без «Submit» не подано) і AC-AI-02 («I can only help with purchases»): PASS 2/2. Попередній прогін українськими описами: https://github.com/kdeineko-tech/school-purchasing/tree/9dee66cdad5236b97b11e76628f72308a6cae23e/docs/qa/uat/2026-11-23/
+- UAT на проді (≥ 2 AC): https://github.com/kdeineko-tech/school-purchasing/blob/9dee66cdad5236b97b11e76628f72308a6cae23e/docs/qa/uat/2026-11-23-en/report.md — AC-AI-01 (людина підтверджує: рядок «A4 paper» / «For printing» / 3 / 20.00, закупівлю без «Submit» не подано) і AC-AI-02 (відмова: «I can only help with purchases»): PASS 2/2, прогін 23.11.2026 на `/api/health` 07c56e6
 - `docs/conformance.md`: https://github.com/kdeineko-tech/school-purchasing/blob/9dee66cdad5236b97b11e76628f72308a6cae23e/docs/conformance.md — AC-AI-01…06 «реалізовано»
 - «eval готовий» у чаті команди: 23.11, eval 22.11 (живий прогін suggest-v3 — 22.11 UTC)
 - Відхилення від PM: не надходило
